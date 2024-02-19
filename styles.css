@@ -1,7 +1,7 @@
 /*==================== GOOGLE FONTS ====================*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
-#welcome-screen {
+.welcome {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -24,7 +24,7 @@
   position: relative; /* Added for positioning the close button */
 }
 
-#close-button {
+.close {
   position: absolute;
   scale: 0.7;
   top: 5px;
@@ -37,7 +37,7 @@
   color: #0077b5; /* Adjust the color to your preference */
 }
 
-#linkedin-button {
+.linkedinButton {
   background: #0077b5;
   color: #fff;
   padding: 10px 20px;
